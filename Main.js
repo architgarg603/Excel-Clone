@@ -24,7 +24,7 @@ function createWindow(){
     win.loadFile("./index.ejs").then(function(){
         win.maximize();
     });
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
